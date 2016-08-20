@@ -1,0 +1,33 @@
+name: YAML • The Natural Data Language
+description: The Natural Data Language
+url: http://yaml.io
+
+repository: https://github.com/yaml/www.yaml.io
+help_url: https://github.com/yaml/www.yaml.io
+
+markdown: kramdown
+highlighter: pygments
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ''
+
+destination: www.yaml.io
+exclude:
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- Makefile
+- yaml.gemspec
+- README.md
+- editor
+
+timezone: America/Los_Angeles
+
+collections:
+  docs:
+    output: true
+
+gems:
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-coffeescript
+- jemoji

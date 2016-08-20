@@ -1,6 +1,6 @@
 # The yaml.io Website Repository
 
-The [yaml.io Website](http:schematype.org) is hosted on GitHub Pages using
+The [yaml.io Website](http://www.yaml.io) is hosted on GitHub Pages using
 [Jekyll](http://jekyllrb.com). The sources are in the `master` branch and the
 site content is in the `gh-pages` branch.
 

@@ -1,0 +1,11 @@
+*.swp
+pkg/
+test/
+.sass-cache/
+.server.log
+.server.pid
+
+/editor/
+/note/
+/try/
+/www.yaml.io/
