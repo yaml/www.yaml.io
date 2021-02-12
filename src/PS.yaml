@@ -1,0 +1,48 @@
+project-site:
+  version: 0.0.4
+
+title: The YAML Language's Development Site
+description: The web site where the YAML Language is developed
+
+build:
+  builder: bootstrap45
+  publish: gh-pages
+
+code:
+  repo: https://github.com/yaml/www.yaml.io
+  branch: main
+
+page:
+  layout: default
+  toc: false
+
+theme:
+  color: 454545
+  logo:
+    type: template
+    letters: io
+
+social:
+  github: https://github.com/yaml/www.yaml.io
+  twitter: yaml-news
+  slack: yamlio
+
+navbar:
+  left:
+  - type: logo
+  - name: Specs
+    link: /spec
+  - name: Projects
+    link: /code
+  - name: Playground
+    link: /play
+
+  right:
+  - type: github
+  - type: twitter
+  - type: slack
+
+copyright:
+  who: Ingy döt Net
+  when: 2021
+  license: MIT

@@ -1,0 +1,33 @@
+sidebar:
+- title: YAML RFCs
+  slug:  rfc
+- title: '1.3'
+  pages:
+  - title: Overview
+  - title: Specification
+    slug:  spec
+  - title: Grammar
+  - title: Schema Language
+    slug:  schema
+  - title: Standard Library
+    slug:  std
+  - title: Query Language
+    slug:  ypath
+  - title: DOM Specification
+    slug:  dom
+  - title: Test Suite
+    slug:  test
+- title: '1.2'
+  pages:
+  - title: Overview
+  - title: Specification
+  - title: Grammar
+  - title: Parser Gen
+- title: '1.1'
+  pages:
+  - title: Overview
+  - title: Specification
+- title: '1.0'
+  pages:
+  - title: Overview
+  - title: Specification
