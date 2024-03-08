@@ -1,6 +1,6 @@
 {
     "m.homeserver": {
-        "base_url": "https://yaml.ems.host"
+        "base_url": "https://chat.yaml.io"
     },
     "m.identity_server": {
         "base_url": "https://vector.im"
